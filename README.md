@@ -39,7 +39,7 @@ The microcontroller chip does not have an IC marking. According to my friend [Ji
 
 "It is suspected to be the [Abov MC81F4104](http://www.abov.co.kr/en/index.php?Depth1=3&Depth2=1&Depth3=1&Depth4=2&Item=MC81F4104) as it is from the same family as the Abov 81F4204R used in the NDP 2016 wristband. The MC81F4104 suspicion is further cemented by the fact this chip is the only one with the 8-SO package in [Abov’s 8-bit Flash MCU lineup](http://www.abov.co.kr/en/index.php?Depth1=3&Depth2=1&Depth3=1&Depth4=2)."
 
-However if this is true, it seems strange that the Vss is connected to power and Vdd to GND when it is supposed to be vice-versa.
+But if this is the case, it seems strange that the Vss is connected to power and Vdd to GND when it is supposed to be vice-versa. Nevertheless I'll remain on this assumption.
 
 I made some assumptions about the U2 I2C component. I assume it is the same EEPROM used in NDP2016's wristband.
 
