@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name at24c02)(type Legacy)(uri ${KIPRJMOD}/at24c02.lib)(options "")(descr ""))
+  (lib (name ir)(type Legacy)(uri ${KIPRJMOD}/ir.lib)(options "")(descr ""))
+  (lib (name rgbled)(type Legacy)(uri ${KIPRJMOD}/rgbled.lib)(options "")(descr ""))
+  (lib (name mc81f4104)(type Legacy)(uri ${KIPRJMOD}/mc81f4104.lib)(options "")(descr ""))
+  (lib (name ndp2019-wristband-schematic-rescue)(type Legacy)(uri ${KIPRJMOD}/ndp2019-wristband-schematic-rescue.lib)(options "")(descr ""))
+)

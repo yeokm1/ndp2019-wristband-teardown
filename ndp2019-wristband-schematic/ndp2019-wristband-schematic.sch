@@ -1,0 +1,428 @@
+EESchema Schematic File Version 4
+LIBS:ndp2019-wristband-schematic-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ir:IR IR1
+U 1 1 5D4475C1
+P 5300 2600
+F 0 "IR1" V 5249 2828 60  0000 L CNN
+F 1 "IR" V 5355 2828 60  0000 L CNN
+F 2 "" H 5300 2600 50  0001 C CNN
+F 3 "" H 5300 2600 50  0001 C CNN
+	1    5300 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:Battery_Cell-Device BT?
+U 1 1 5D44B922
+P 2500 3350
+F 0 "BT?" H 2618 3446 50  0000 L CNN
+F 1 "CR1632 3V" H 2618 3355 50  0000 L CNN
+F 2 "" V 2500 3410 50  0001 C CNN
+F 3 "~" V 2500 3410 50  0001 C CNN
+	1    2500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:Battery_Cell-Device BT?
+U 1 1 5D44BFD6
+P 2500 2950
+F 0 "BT?" H 2618 3046 50  0000 L CNN
+F 1 "CR1632 3V" H 2618 2955 50  0000 L CNN
+F 2 "" V 2500 3010 50  0001 C CNN
+F 3 "~" V 2500 3010 50  0001 C CNN
+	1    2500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:+6V-power #PWR?
+U 1 1 5D44C807
+P 2500 2650
+F 0 "#PWR?" H 2500 2500 50  0001 C CNN
+F 1 "+6V" H 2515 2823 50  0000 C CNN
+F 2 "" H 2500 2650 50  0001 C CNN
+F 3 "" H 2500 2650 50  0001 C CNN
+	1    2500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:GND-power #PWR?
+U 1 1 5D44D181
+P 2500 3550
+F 0 "#PWR?" H 2500 3300 50  0001 C CNN
+F 1 "GND" H 2505 3377 50  0000 C CNN
+F 2 "" H 2500 3550 50  0001 C CNN
+F 3 "" H 2500 3550 50  0001 C CNN
+	1    2500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3050 2500 3150
+Wire Wire Line
+	2500 3450 2500 3550
+$Comp
+L ndp2019-wristband-schematic-rescue:C-Device C1
+U 1 1 5D44E5A3
+P 4100 3150
+F 0 "C1" H 4215 3150 50  0000 L CNN
+F 1 "C" H 4215 3105 50  0001 L CNN
+F 2 "" H 4138 3000 50  0001 C CNN
+F 3 "~" H 4100 3150 50  0001 C CNN
+	1    4100 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:GND-power #PWR?
+U 1 1 5D451C0F
+P 4100 2900
+F 0 "#PWR?" H 4100 2650 50  0001 C CNN
+F 1 "GND" H 4105 2727 50  0000 C CNN
+F 2 "" H 4100 2900 50  0001 C CNN
+F 3 "" H 4100 2900 50  0001 C CNN
+	1    4100 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 3000 4100 2900
+Wire Wire Line
+	6650 3350 6750 3350
+$Comp
+L ndp2019-wristband-schematic-rescue:GND-power #PWR?
+U 1 1 5D45841A
+P 8600 3200
+F 0 "#PWR?" H 8600 2950 50  0001 C CNN
+F 1 "GND" H 8605 3027 50  0000 C CNN
+F 2 "" H 8600 3200 50  0001 C CNN
+F 3 "" H 8600 3200 50  0001 C CNN
+	1    8600 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8600 3350 8500 3350
+$Comp
+L rgbled:LED_BRG LED1
+U 1 1 5D4598D7
+P 8050 1900
+F 0 "LED1" V 8004 2228 50  0000 L CNN
+F 1 "LED_BRG" V 8095 2228 50  0000 L CNN
+F 2 "" H 8050 1850 50  0000 C CNN
+F 3 "" H 8050 1850 50  0000 C CNN
+	1    8050 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:DIODE-pspice D1
+U 1 1 5D45C7D1
+P 3350 3150
+F 0 "D1" V 3350 3278 50  0000 L CNN
+F 1 "DIODE" V 3305 3022 50  0001 R CNN
+F 2 "" H 3350 3150 50  0001 C CNN
+F 3 "~" H 3350 3150 50  0001 C CNN
+	1    3350 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:R-Device R1
+U 1 1 5D45F176
+P 6150 2500
+F 0 "R1" V 6050 2500 50  0000 C CNN
+F 1 "1200" V 6150 2500 50  0000 C CNN
+F 2 "" V 6080 2500 50  0001 C CNN
+F 3 "~" H 6150 2500 50  0001 C CNN
+	1    6150 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:C-Device C2
+U 1 1 5D463833
+P 5850 2250
+F 0 "C2" H 5965 2250 50  0000 L CNN
+F 1 "C" H 5965 2205 50  0001 L CNN
+F 2 "" H 5888 2100 50  0001 C CNN
+F 3 "~" H 5850 2250 50  0001 C CNN
+	1    5850 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:GND-power #PWR?
+U 1 1 5D466798
+P 5850 1850
+F 0 "#PWR?" H 5850 1600 50  0001 C CNN
+F 1 "GND" H 5855 1677 50  0000 C CNN
+F 2 "" H 5850 1850 50  0001 C CNN
+F 3 "" H 5850 1850 50  0001 C CNN
+	1    5850 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 2400 5850 2500
+Wire Wire Line
+	8500 3500 8750 3500
+$Comp
+L rgbled:LED_BRG LED2
+U 1 1 5D46EA55
+P 8100 4650
+F 0 "LED2" V 8054 4978 50  0000 L CNN
+F 1 "LED_BRG" V 8145 4978 50  0000 L CNN
+F 2 "" H 8100 4600 50  0000 C CNN
+F 3 "" H 8100 4600 50  0000 C CNN
+	1    8100 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:VCC-power #PWR?
+U 1 1 5D471704
+P 6500 3100
+F 0 "#PWR?" H 6500 2950 50  0001 C CNN
+F 1 "VCC" H 6517 3273 50  0000 C CNN
+F 2 "" H 6500 3100 50  0001 C CNN
+F 3 "" H 6500 3100 50  0001 C CNN
+	1    6500 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 2650 2500 2750
+$Comp
+L ndp2019-wristband-schematic-rescue:VCC-power #PWR?
+U 1 1 5D479140
+P 3350 3450
+F 0 "#PWR?" H 3350 3300 50  0001 C CNN
+F 1 "VCC" H 3368 3623 50  0000 C CNN
+F 2 "" H 3350 3450 50  0001 C CNN
+F 3 "" H 3350 3450 50  0001 C CNN
+	1    3350 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:+6V-power #PWR?
+U 1 1 5D47B146
+P 3350 2850
+F 0 "#PWR?" H 3350 2700 50  0001 C CNN
+F 1 "+6V" H 3365 3023 50  0000 C CNN
+F 2 "" H 3350 2850 50  0001 C CNN
+F 3 "" H 3350 2850 50  0001 C CNN
+	1    3350 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2950 3350 2850
+Wire Wire Line
+	3350 3450 3350 3350
+$Comp
+L ndp2019-wristband-schematic-rescue:+6V-power #PWR?
+U 1 1 5D483CAA
+P 6500 2500
+F 0 "#PWR?" H 6500 2350 50  0001 C CNN
+F 1 "+6V" H 6515 2673 50  0000 C CNN
+F 2 "" H 6500 2500 50  0001 C CNN
+F 3 "" H 6500 2500 50  0001 C CNN
+	1    6500 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L ndp2019-wristband-schematic-rescue:+6V-power #PWR?
+U 1 1 5D48AD55
+P 7700 1400
+F 0 "#PWR?" H 7700 1250 50  0001 C CNN
+F 1 "+6V" H 7715 1573 50  0000 C CNN
+F 2 "" H 7700 1400 50  0001 C CNN
+F 3 "" H 7700 1400 50  0001 C CNN
+	1    7700 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2100 7850 2100
+Wire Wire Line
+	7850 1900 7700 1900
+Connection ~ 7700 1900
+Wire Wire Line
+	7700 1900 7700 2100
+Wire Wire Line
+	7850 1700 7700 1700
+Wire Wire Line
+	7700 1700 7700 1900
+Wire Wire Line
+	8250 2100 8950 2100
+Wire Wire Line
+	8950 2100 8950 3650
+Wire Wire Line
+	8950 3650 8500 3650
+Wire Wire Line
+	8250 1900 9150 1900
+Wire Wire Line
+	9150 1900 9150 4050
+Wire Wire Line
+	9150 4050 6600 4050
+Wire Wire Line
+	6600 4050 6600 3800
+Wire Wire Line
+	6600 3800 6750 3800
+Wire Wire Line
+	8250 1700 9300 1700
+Wire Wire Line
+	9300 1700 9300 3800
+Wire Wire Line
+	9300 3800 8500 3800
+$Comp
+L ndp2019-wristband-schematic-rescue:+6V-power #PWR?
+U 1 1 5D492332
+P 7750 4300
+F 0 "#PWR?" H 7750 4150 50  0001 C CNN
+F 1 "+6V" H 7765 4473 50  0000 C CNN
+F 2 "" H 7750 4300 50  0001 C CNN
+F 3 "" H 7750 4300 50  0001 C CNN
+	1    7750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4450 7750 4450
+Wire Wire Line
+	7900 4650 7750 4650
+Connection ~ 7750 4650
+Wire Wire Line
+	7750 4650 7750 4850
+Wire Wire Line
+	7900 4850 7750 4850
+Wire Wire Line
+	9150 4050 9150 4650
+Wire Wire Line
+	9150 4650 8300 4650
+Connection ~ 9150 4050
+Wire Wire Line
+	9300 3800 9300 4450
+Wire Wire Line
+	9300 4450 8300 4450
+Connection ~ 9300 3800
+Wire Wire Line
+	8950 3650 8950 4850
+Wire Wire Line
+	8950 4850 8300 4850
+Connection ~ 8950 3650
+$Comp
+L ndp2019-wristband-schematic-rescue:VCC-power #PWR?
+U 1 1 5D49F3E6
+P 4100 3450
+F 0 "#PWR?" H 4100 3300 50  0001 C CNN
+F 1 "VCC" H 4117 3623 50  0000 C CNN
+F 2 "" H 4100 3450 50  0001 C CNN
+F 3 "" H 4100 3450 50  0001 C CNN
+	1    4100 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 2700 8750 2700
+Wire Wire Line
+	8750 2700 8750 3500
+$Comp
+L at24c02:AT24C02S U2
+U 1 1 5D443642
+P 4950 3550
+F 0 "U2" H 4950 3917 50  0000 C CNN
+F 1 "AT24C02S" H 4950 3916 50  0001 C CNN
+F 2 "SOT-23-5" H 4950 3826 50  0000 C CIN
+F 3 "" H 4950 3550 50  0000 C CNN
+	1    4950 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 3650 5350 3650
+Wire Wire Line
+	6750 3500 6400 3500
+Wire Wire Line
+	6400 3500 6400 3350
+Wire Wire Line
+	6400 3350 5350 3350
+$Comp
+L ndp2019-wristband-schematic-rescue:GND-power #PWR?
+U 1 1 5D4C858A
+P 5650 3500
+F 0 "#PWR?" H 5650 3250 50  0001 C CNN
+F 1 "GND" V 5655 3372 50  0000 R CNN
+F 2 "" H 5650 3500 50  0001 C CNN
+F 3 "" H 5650 3500 50  0001 C CNN
+	1    5650 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 3500 5350 3500
+Wire Wire Line
+	4100 3450 4100 3400
+Wire Wire Line
+	4550 3400 4100 3400
+Connection ~ 4100 3400
+Wire Wire Line
+	4100 3400 4100 3300
+$Comp
+L ndp2019-wristband-schematic-rescue:GND-power #PWR?
+U 1 1 5D4D1D5E
+P 4450 3650
+F 0 "#PWR?" H 4450 3400 50  0001 C CNN
+F 1 "GND" V 4455 3522 50  0000 R CNN
+F 2 "" H 4450 3650 50  0001 C CNN
+F 3 "" H 4450 3650 50  0001 C CNN
+	1    4450 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 3650 4450 3650
+Wire Wire Line
+	7750 4300 7750 4450
+Wire Wire Line
+	8600 3350 8600 3200
+Wire Wire Line
+	6650 2950 6500 2950
+Wire Wire Line
+	6500 2950 6500 3100
+Wire Wire Line
+	6650 3350 6650 2950
+Wire Wire Line
+	6500 2500 6300 2500
+Wire Wire Line
+	6000 2500 5850 2500
+Wire Wire Line
+	5850 2100 5850 2050
+Connection ~ 5850 2500
+Wire Wire Line
+	5850 2500 5550 2500
+Wire Wire Line
+	5550 2600 5600 2600
+Wire Wire Line
+	5600 2600 5600 2050
+Wire Wire Line
+	5600 2050 5850 2050
+Connection ~ 5850 2050
+Wire Wire Line
+	5850 2050 5850 1850
+$Comp
+L mc81f4104:MC81F4104 U1
+U 1 1 5D45F39D
+P 7650 3600
+F 0 "U1" H 7650 4000 50  0000 C CNN
+F 1 "MC81F4104" H 7650 3200 50  0000 C CNN
+F 2 "" H 7250 4050 50  0001 C CNN
+F 3 "" H 7250 4050 50  0001 C CNN
+	1    7650 3600
+	1    0    0    -1  
+$EndComp
+Text Notes 8250 3050 2    50   ~ 0
+Vdd and Vss pins might be wrong
+Wire Wire Line
+	7700 1400 7700 1700
+Connection ~ 7700 1700
+Connection ~ 7750 4450
+Wire Wire Line
+	7750 4450 7750 4650
+$EndSCHEMATC
